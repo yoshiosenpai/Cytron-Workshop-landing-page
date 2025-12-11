@@ -341,7 +341,6 @@ input, textarea, select {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px;
     position: relative;
     overflow: hidden;
     background: var(--gray-50);
