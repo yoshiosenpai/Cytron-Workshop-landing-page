@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cytron Technical Workshops - Hands-on training for industry engineers in robotics, edge AI, and industrial automation.">
+    <title>Cytron Technical Workshops | Industry Training for Engineers</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">
+                <span class="logo-icon">CT</span>
+                Cytron Technical Workshops
+            </a>
+            <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-menu" id="navbar-menu">
+                <a href="#home" class="navbar-link">Home</a>
+                <a href="#why" class="navbar-link">Why Training</a>
+                <a href="#workshops" class="navbar-link">Workshops</a>
+                <a href="#trainers" class="navbar-link">Trainers</a>
+                <a href="#gallery" class="navbar-link">Gallery</a>
+                <a href="#faq" class="navbar-link">FAQ</a>
+                <a href="#contact" class="navbar-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="hero-grid"></div>
+                <div class="hero-shape hero-shape-1"></div>
+                <div class="hero-shape hero-shape-2"></div>
+                <div class="hero-shape hero-shape-3"></div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Industry-Ready Training Programs</span>
+                    <h1 class="hero-title">
+                        Hands-On Technical <span>Workshops</span> for Industry Engineers
+                    </h1>
+                    <p class="hero-text">
+                        Upskill your engineering team with practical, industry-focused training in robotics, edge AI, 
+                        and industrial automation. Led by certified professionals with real-world expertise.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#workshops" class="btn btn-primary">Explore Workshops</a>
+                        <a href="#contact" class="btn btn-outline">Talk to Our Training Team</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-training.jpg" alt="Cytron Technical Workshop - Hands-on training session with engineers" class="hero-img">
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll to explore</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Why Cytron Section -->
+        <section class="section section-alt" id="why">
+            <div class="container">
+                <h2 class="section-title reveal">Why Cytron Training?</h2>
+                <p class="section-subtitle reveal">
+                    We deliver practical, industry-relevant training designed to bridge the gap between theory and real-world application.
+                </p>
+                <div class="why-cards">
+                    <div class="why-card reveal stagger-1">
+                        <div class="why-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Professional Certificate Provided</h3>
+                        <p class="why-card-text">Receive an official certificate upon completion to validate your skills and enhance your professional credentials.</p>
+                    </div>
+                    <div class="why-card reveal stagger-2">
+                        <div class="why-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Hands-On Training</h3>
+                        <p class="why-card-text">Learn by doing with real hardware and equipment. Build, program, and deploy working projects during every session.</p>
+                    </div>
+                    <div class="why-card reveal stagger-3">
+                        <div class="why-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">HRD Corp Claimable</h3>
+                        <p class="why-card-text">Our workshops are HRD Corp claimable, making it easier for companies to invest in employee training and development.</p>
+                    </div>
+                    <div class="why-card reveal stagger-4">
+                        <div class="why-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Exclusive Cytron Factory Tour</h3>
+                        <p class="why-card-text">Get a behind-the-scenes look at our manufacturing facility and see how Cytron products are designed and built.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workshops Section -->
+        <section class="section" id="workshops">
+            <div class="container">
+                <h2 class="section-title reveal">Our Technical Workshops</h2>
+                <p class="section-subtitle reveal">
+                    Choose from our range of hands-on workshops designed for industry professionals ready to master cutting-edge technologies.
+                </p>
+                <div class="workshops-grid workshops-grid-4">
+                    <div class="workshop-card reveal stagger-1">
+                        <div class="workshop-image">Workshop Image Placeholder</div>
+                        <div class="workshop-content">
+                            <h3 class="workshop-title">NVIDIA Jetson Edge AI Hands-On Workshop</h3>
+                            <ul class="workshop-list">
+                                <li>Hands-on AI training with Jetson Orin Nano</li>
+                                <li>Real-time object detection & image classification</li>
+                                <li>Official NVIDIA AI Certification included</li>
+                            </ul>
+                            <div class="workshop-tags">
+                                <span class="workshop-tag">NVIDIA Certified</span>
+                                <span class="workshop-tag">Edge AI</span>
+                            </div>
+                            <button class="workshop-cta" data-workshop="jetson">View Syllabus</button>
+                        </div>
+                    </div>
+                    <div class="workshop-card reveal stagger-2">
+                        <div class="workshop-image">Workshop Image Placeholder</div>
+                        <div class="workshop-content">
+                            <h3 class="workshop-title">IRIV PiControl Industry 4.0 Workshop</h3>
+                            <ul class="workshop-list">
+                                <li>Industrial edge controller with Raspberry Pi CM4</li>
+                                <li>RS485 Modbus RTU communication protocols</li>
+                                <li>Build IoT dashboards with Node-RED</li>
+                            </ul>
+                            <div class="workshop-tags">
+                                <span class="workshop-tag">Industry 4.0</span>
+                                <span class="workshop-tag">HRD Corp Claimable</span>
+                            </div>
+                            <button class="workshop-cta" data-workshop="iriv">View Syllabus</button>
+                        </div>
+                    </div>
+                    <div class="workshop-card reveal stagger-3">
+                        <div class="workshop-image">Workshop Image Placeholder</div>
+                        <div class="workshop-content">
+                            <h3 class="workshop-title">IRIV EdgeAI Industry 4.0 Training</h3>
+                            <ul class="workshop-list">
+                                <li>Getting started with EdgeAI Vision</li>
+                                <li>Deploy AI models on industrial controllers</li>
+                                <li>Computer vision for manufacturing</li>
+                            </ul>
+                            <div class="workshop-tags">
+                                <span class="workshop-tag">Edge AI</span>
+                                <span class="workshop-tag">Industry 4.0</span>
+                            </div>
+                            <button class="workshop-cta" data-workshop="irivedge">View Syllabus</button>
+                        </div>
+                    </div>
+                    <div class="workshop-card reveal stagger-4">
+                        <div class="workshop-image">Workshop Image Placeholder</div>
+                        <div class="workshop-content">
+                            <h3 class="workshop-title">Cytron Raspbot Workshop (Introduction to AI)</h3>
+                            <ul class="workshop-list">
+                                <li>Build and program AI-powered mobile robots</li>
+                                <li>Introduction to machine learning concepts</li>
+                                <li>Hands-on with Raspberry Pi robotics</li>
+                            </ul>
+                            <div class="workshop-tags">
+                                <span class="workshop-tag">Beginner Friendly</span>
+                                <span class="workshop-tag">Robotics</span>
+                            </div>
+                            <button class="workshop-cta" data-workshop="raspbot">View Syllabus</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who Should Join Section -->
+        <section class="section section-alt" id="audience">
+            <div class="container">
+                <h2 class="section-title reveal">Who Should Join These Workshops?</h2>
+                <p class="section-subtitle reveal">
+                    Our workshops are designed for technical professionals looking to advance their skills in emerging technologies.
+                </p>
+                <div class="audience-grid">
+                    <div class="audience-text reveal-left">
+                        <h3>Designed for Technical Professionals</h3>
+                        <p>
+                            Whether you're an automation engineer looking to integrate AI into your production line, 
+                            a robotics developer building the next generation of autonomous systems, or an educator 
+                            preparing students for Industry 4.0 careers — our workshops provide the practical skills 
+                            and hands-on experience you need to excel in your role.
+                        </p>
+                    </div>
+                    <ul class="audience-list reveal-right">
+                        <li><span>Factory Automation Engineers</span></li>
+                        <li><span>Robotics Developers</span></li>
+                        <li><span>System Integrators</span></li>
+                        <li><span>R&D and Prototyping Teams</span></li>
+                        <li><span>TVET & Polytechnic Instructors</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trainers Section -->
+        <section class="section" id="trainers">
+            <div class="container">
+                <h2 class="section-title reveal">Meet Your Trainers</h2>
+                <p class="section-subtitle reveal">
+                    Learn from certified professionals with hands-on industry experience.
+                </p>
+                <div class="trainers-grid trainers-grid-2">
+                    <div class="trainer-card reveal stagger-1">
+                        <div class="trainer-image">
+                            <img src="trainer-qayyum.png" alt="Abdul Qayyum">
+                        </div>
+                        <h3 class="trainer-name">Abdul Qayyum</h3>
+                        <p class="trainer-title">Industrial Application Engineer</p>
+                        <p class="trainer-bio">
+                            Certified HRDC Trainer with experience in teaching IoT Systems, RS485 Industrial Communication Protocol, and Industrial Controllers based on Raspberry Pi.
+                        </p>
+                    </div>
+                    <div class="trainer-card reveal stagger-2">
+                        <div class="trainer-image">
+                            <img src="trainer-rupashri.png" alt="Rupashri Sathasivam">
+                        </div>
+                        <h3 class="trainer-name">Rupashri Sathasivam</h3>
+                        <p class="trainer-title">Product Engineer</p>
+                        <p class="trainer-bio">
+                            Certified HRDC Trainer with experience in teaching NVIDIA Jetson AI fundamentals and practical edge AI deployment. NVIDIA certified instructor with expertise in computer vision and edge computing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section section-alt" id="gallery">
+            <div class="container">
+                <h2 class="section-title reveal">Training in Action</h2>
+                <p class="section-subtitle reveal">
+                    See our hands-on workshops in progress — real engineers building real solutions.
+                </p>
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal stagger-1">
+                        <img src="gallery-1.jpg" alt="Hands-on robotics session">
+                        <div class="gallery-caption">Hands-on robotics session</div>
+                    </div>
+                    <div class="gallery-item reveal stagger-2">
+                        <img src="gallery-2.jpg" alt="Live hardware demo">
+                        <div class="gallery-caption">Live hardware demo</div>
+                    </div>
+                    <div class="gallery-item reveal stagger-3">
+                        <img src="gallery-3.jpg" alt="Team collaboration">
+                        <div class="gallery-caption">Team collaboration</div>
+                    </div>
+                    <div class="gallery-item reveal stagger-4">
+                        <img src="gallery-4.jpg" alt="Edge AI deployment">
+                        <div class="gallery-caption">Edge AI deployment</div>
+                    </div>
+                    <div class="gallery-item reveal stagger-5">
+                        <img src="gallery-5.jpg" alt="Industrial controller setup">
+                        <div class="gallery-caption">Industrial controller setup</div>
+                    </div>
+                    <div class="gallery-item reveal stagger-6">
+                        <img src="gallery-6.jpg" alt="Certificate presentation">
+                        <div class="gallery-caption">Certificate presentation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Corporate CTA Section -->
+        <section class="section corporate-cta">
+            <div class="container">
+                <div class="corporate-content">
+                    <h2 class="reveal">Need Custom Training for Your Team?</h2>
+                    <p class="reveal">
+                        We offer tailored corporate training programs designed around your team's specific 
+                        technology stack, skill levels, and project requirements. On-site or at our training facility.
+                    </p>
+                    <a href="#contact" class="btn reveal">Request Custom Training</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section" id="faq">
+            <div class="container">
+                <h2 class="section-title reveal">Frequently Asked Questions</h2>
+                <p class="section-subtitle reveal">
+                    Find answers to common questions about our training programs.
+                </p>
+                <div class="faq-list">
+                    <div class="faq-item reveal stagger-1">
+                        <button class="faq-question">
+                            <span>What is the typical duration of a workshop?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Most of our workshops run for 2–3 days, depending on the complexity of the topic. 
+                                We also offer condensed 1-day introductory sessions and extended 5-day intensive 
+                                programs for comprehensive skill development.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal stagger-2">
+                        <button class="faq-question">
+                            <span>Do participants receive any hardware or kits to keep?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Select workshops include take-home development kits so participants can continue 
+                                practicing after the training. Kit inclusion varies by workshop — check the specific 
+                                syllabus or contact us for details.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal stagger-3">
+                        <button class="faq-question">
+                            <span>What are the prerequisites for attending?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Prerequisites vary by workshop. Generally, we recommend basic programming knowledge 
+                                (Python or C/C++) and familiarity with electronics or embedded systems. Each workshop 
+                                syllabus lists specific requirements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal stagger-4">
+                        <button class="faq-question">
+                            <span>Do you provide certificates upon completion?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Yes! All participants who complete a workshop receive a certificate of completion. 
+                                For certain specialized tracks, we also offer industry-recognized certifications 
+                                from our technology partners.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal stagger-5">
+                        <button class="faq-question">
+                            <span>Can workshops be conducted at our company premises?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Absolutely! We offer on-site corporate training for teams of 8 or more. We'll bring 
+                                all necessary equipment and customize the curriculum to match your specific industry 
+                                applications and technology stack.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal stagger-6">
+                        <button class="faq-question">
+                            <span>What is your cancellation and refund policy?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Cancellations made 14+ days before the workshop date are eligible for a full refund. 
+                                Cancellations within 7–14 days receive a 50% refund or full credit for a future session. 
+                                Contact us for special circumstances.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <h2 class="section-title reveal">Talk to Our Training Team</h2>
+                <p class="section-subtitle reveal">
+                    Have questions about upcoming dates, syllabus details, or custom training? We're here to help.
+                </p>
+                <div class="contact-container reveal">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="company">Company</label>
+                                <input type="text" id="company" name="company" class="form-input" placeholder="Your company">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="you@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+60 12-345 6789">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="workshop">Workshop of Interest</label>
+                            <select id="workshop" name="workshop" class="form-select">
+                                <option value="">Select a workshop...</option>
+                                <option value="jetson">NVIDIA Jetson Edge AI Hands-On Workshop</option>
+                                <option value="iriv">IRIV PiControl Industry 4.0 Workshop</option>
+                                <option value="irivedge">IRIV EdgeAI Industry 4.0 Training</option>
+                                <option value="raspbot">Cytron Raspbot Workshop (Introduction to AI)</option>
+                                <option value="custom">Custom Corporate Training</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your training needs, team size, preferred dates, etc."></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Submit Enquiry</button>
+                        <div class="form-success" id="form-success">
+                            ✓ Thank you for your enquiry! Our training team will contact you within 24 hours.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">
+                    © <span id="current-year"></span> Cytron Technologies – All rights reserved.
+                </p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#contact" class="footer-link">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">Workshop Syllabus</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
